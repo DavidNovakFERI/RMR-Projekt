@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App.MainPage"
+             Title="Aktivno gibanje">
+
+    <AbsoluteLayout>
+        <Image
+            Source="Resources/Images/main_screen.svg"
+            Aspect="AspectFill"
+            AbsoluteLayout.LayoutBounds="-55,-135,1.5,1.2"
+            AbsoluteLayout.LayoutFlags="WidthProportional, HeightProportional"
+            IsVisible="True"
+            Scale="0.8" />
+
+        <Label
+            Text="Tvoj Zacetek Z Fittnes Uspehom"
+            TextColor="White"
+            FontFamily="WinterMinie"
+            FontSize="35"
+            FontAttributes="Bold"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            AbsoluteLayout.LayoutBounds="0.5,0.71,0.8,0.1"
+            AbsoluteLayout.LayoutFlags="All"
+            HorizontalTextAlignment="Center"
+            VerticalTextAlignment="Center">
+            <Label.Shadow>
+                <Shadow Brush="Blue" Offset="-5,5" Opacity="1" />
+            </Label.Shadow>
+        </Label>
+
+
+        <Grid AbsoluteLayout.LayoutBounds="0,1,1,0.2" AbsoluteLayout.LayoutFlags="All" Padding="20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <Button
+                x:Name="LoginBtn"
+                Text="LOGIN"
+                FontFamily="varsity"
+                SemanticProperties.Hint="Login to your account"
+                Clicked="OnLoginClicked"
+                HorizontalOptions="Fill"
+                Margin="0,0,0,10"
+                CornerRadius="20"
+                BackgroundColor="#007AFF"
+                TextColor="White"
+                Padding="10,5" />
+
+            <Button
+                x:Name="RegisterBtn"
+                Text="REGISTER"
+                FontFamily="varsity"
+                SemanticProperties.Hint="Register a new account"
+                Clicked="OnRegisterClicked"
+                HorizontalOptions="Fill"
+                Margin="0,10,0,0"
+                CornerRadius="20"
+                BackgroundColor="#34C759"
+                TextColor="White"
+                Padding="10,5"
+                Grid.Row="1" />
+        </Grid>
+    </AbsoluteLayout>
+
+</ContentPage>
+

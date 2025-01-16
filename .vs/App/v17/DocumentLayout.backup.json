@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\3LETNIK\\RMR\\App\\App\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E1F3342A-4BB4-4126-A801-2FE40ADE6AA7}|App\\App.csproj|d:\\3letnik\\rmr\\app\\app\\app\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E1F3342A-4BB4-4126-A801-2FE40ADE6AA7}|App\\App.csproj|solutionrelative:app\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1F3342A-4BB4-4126-A801-2FE40ADE6AA7}|App\\App.csproj|d:\\3letnik\\rmr\\app\\app\\app\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1F3342A-4BB4-4126-A801-2FE40ADE6AA7}|App\\App.csproj|solutionrelative:app\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1F3342A-4BB4-4126-A801-2FE40ADE6AA7}|App\\App.csproj|d:\\3letnik\\rmr\\app\\app\\app\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1F3342A-4BB4-4126-A801-2FE40ADE6AA7}|App\\App.csproj|solutionrelative:app\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1F3342A-4BB4-4126-A801-2FE40ADE6AA7}|App\\App.csproj|d:\\3letnik\\rmr\\app\\app\\app\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1F3342A-4BB4-4126-A801-2FE40ADE6AA7}|App\\App.csproj|solutionrelative:app\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 325,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\3LETNIK\\RMR\\App\\App\\App\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App\\App.xaml.cs",
+              "ToolTip": "D:\\3LETNIK\\RMR\\App\\App\\App\\App.xaml.cs",
+              "RelativeToolTip": "App\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T23:44:00.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\3LETNIK\\RMR\\App\\App\\App\\MainPage.xaml",
+              "RelativeDocumentMoniker": "App\\MainPage.xaml",
+              "ToolTip": "D:\\3LETNIK\\RMR\\App\\App\\App\\MainPage.xaml",
+              "RelativeToolTip": "App\\MainPage.xaml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-10T23:40:20.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "D:\\3LETNIK\\RMR\\App\\App\\App\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "App\\MainPage.xaml.cs",
+              "ToolTip": "D:\\3LETNIK\\RMR\\App\\App\\App\\MainPage.xaml.cs",
+              "RelativeToolTip": "App\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T23:41:16.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "D:\\3LETNIK\\RMR\\App\\App\\App\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "App\\MauiProgram.cs",
+              "ToolTip": "D:\\3LETNIK\\RMR\\App\\App\\App\\MauiProgram.cs",
+              "RelativeToolTip": "App\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T23:32:45.588Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 175,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
