@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App"
+             x:Class="App.CommunityPage"
+             BackgroundColor="#222222"
+             Title="Community">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <local:InverseBooleanConverter x:Key="InverseBooleanConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
+    <Grid BackgroundColor="#222222">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!-- Search Bar -->
+        <SearchBar x:Name="ProfileSearchBar" Placeholder="Search profiles..." TextChanged="OnSearchBarTextChanged" Grid.Row="0" TextColor="White"/>
+
+        <!-- Scrollable Main Content -->
+        <ScrollView Grid.Row="1" BackgroundColor="#111111">
+            <CollectionView x:Name="ProfilesCollectionView">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame BackgroundColor="#222222" BorderColor="#555555" CornerRadius="10" Padding="10" Margin="10">
+                            <Grid ColumnDefinitions="*,Auto,Auto,Auto">
+                                <Label Text="{Binding FullName}" TextColor="White" VerticalOptions="Center" Grid.Column="0" />
+                                <ImageButton Source="add.svg" WidthRequest="24" HeightRequest="24" BackgroundColor="Transparent" Clicked="OnAddButtonClicked" Grid.Column="1" IsVisible="{Binding IsFollowing, Converter={StaticResource InverseBooleanConverter}}" />
+                                <ImageButton Source="minus.svg" WidthRequest="24" HeightRequest="24" BackgroundColor="Transparent" Clicked="OnRemoveButtonClicked" Grid.Column="2" IsVisible="{Binding IsFollowing}" />
+                            </Grid>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </ScrollView>
+
+        <!-- Top Border -->
+        <BoxView Grid.Row="2" HeightRequest="1" BackgroundColor="#555555" />
+
+        <!-- Bottom Menu -->
+        <Grid Grid.Row="3" BackgroundColor="#222222" Padding="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <!-- Menu Item 1 -->
+            <VerticalStackLayout Grid.Column="0" HorizontalOptions="Center">
+                <ImageButton Source="home.svg" WidthRequest="24" HeightRequest="24" BackgroundColor="Transparent" Clicked="OnHomeClicked" />
+                <Label Text="Domov" TextColor="LightGray" FontSize="12" HorizontalOptions="Center" />
+            </VerticalStackLayout>
+
+            <!-- Menu Item 2 -->
+            <VerticalStackLayout Grid.Column="1" HorizontalOptions="Center">
+                <ImageButton Source="trophy.svg" WidthRequest="24" HeightRequest="24" BackgroundColor="Transparent" Clicked="OnChallangesClicked" />
+                <Label Text="Izivi" TextColor="LightGray" FontSize="12" HorizontalOptions="Center" />
+            </VerticalStackLayout>
+
+            <!-- Menu Item 3 -->
+            <VerticalStackLayout Grid.Column="2" HorizontalOptions="Center">
+                <ImageButton Source="sprint.svg" WidthRequest="24" HeightRequest="24" BackgroundColor="Transparent" Clicked="OnStartClicked" />
+                <Label Text="Zacni" TextColor="LightGray" FontSize="12" HorizontalOptions="Center" />
+            </VerticalStackLayout>
+
+            <!-- Menu Item 4 -->
+            <VerticalStackLayout Grid.Column="3" HorizontalOptions="Center">
+                <ImageButton Source="groups.svg" WidthRequest="24" HeightRequest="24" BackgroundColor="Transparent" Clicked="OnCommunityClicked" />
+                <Label Text="Skupnost" TextColor="LightGray" FontSize="12" HorizontalOptions="Center" />
+            </VerticalStackLayout>
+
+            <!-- Menu Item 5 -->
+            <VerticalStackLayout Grid.Column="4" HorizontalOptions="Center">
+                <ImageButton Source="person.svg" WidthRequest="24" HeightRequest="24" BackgroundColor="Transparent" Clicked="OnProfileClicked" />
+                <Label Text="Jaz" TextColor="LightGray" FontSize="12" HorizontalOptions="Center" />
+            </VerticalStackLayout>
+        </Grid>
+    </Grid>
+</ContentPage>
+

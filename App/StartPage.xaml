@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App.StartPage"            
+             BackgroundColor="#222222"
+             Title="Start">
+
+    <Grid BackgroundColor="#111111">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!-- Picker without border and custom underline color -->
+        <HorizontalStackLayout Grid.Row="0" Spacing="10" Padding="10" BackgroundColor="#111111" HorizontalOptions="Center">
+            <Picker x:Name="activityPicker" Title="Izberi aktivnost" TextColor="White" BackgroundColor="#111111" Margin="10" HorizontalOptions="Start" VerticalOptions="Start">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Tek</x:String>
+                        <x:String>Kolesarjenje</x:String>
+                        <x:String>Hoja</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+                <Picker.SelectedIndex>0</Picker.SelectedIndex>
+            </Picker>
+            <Label x:Name="temperatureLabel" Text="Temperatura: -- °C" TextColor="White" FontSize="16" HorizontalOptions="Center" VerticalOptions="Center" />
+        </HorizontalStackLayout>
+
+        <!-- Main Content with MapControl -->
+        <Grid x:Name="mainLayout" Grid.Row="1" BackgroundColor="#111111" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <!-- MapView will be inserted here by code-behind -->
+        </Grid>
+
+        <!-- Labels za podatke -->
+        <HorizontalStackLayout Grid.Row="2" Spacing="10" Padding="10" BackgroundColor="#111111" HorizontalOptions="Center">
+            <Label x:Name="distanceLabel" Text="Razdalja: 0 m" TextColor="White" FontSize="16" HorizontalOptions="Center" />
+            <Label x:Name="timeLabel" Text="Čas: 00:00:00" TextColor="White" FontSize="16" HorizontalOptions="Center" />
+            <Label x:Name="speedLabel" Text="Hitrost: 0 m/s" TextColor="White" FontSize="16" HorizontalOptions="Center" />
+        </HorizontalStackLayout>
+
+        <!-- Start Button -->
+        <Button x:Name="startButton" Grid.Row="3" Text="Začetek" BackgroundColor="GreenYellow" TextColor="Black" Margin="10" HorizontalOptions="FillAndExpand" Clicked="OnStartButtonClicked" />
+
+        <!-- End Button -->
+        <Button x:Name="endButton" Grid.Row="3" Text="Koncaj" BackgroundColor="Red" TextColor="White" Margin="10" HorizontalOptions="FillAndExpand" Clicked="OnEndButtonClicked" IsVisible="False" />
+
+        <!-- Bottom Menu -->
+        <Grid Grid.Row="4" BackgroundColor="#222222" Padding="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <!-- Menu Item 1 -->
+            <VerticalStackLayout Grid.Column="0" HorizontalOptions="Center">
+                <ImageButton Source="home.svg" WidthRequest="24" HeightRequest="24" BackgroundColor="Transparent" Clicked="OnHomeClicked" />
+                <Label Text="Domov" TextColor="LightGray" FontSize="12" HorizontalOptions="Center" />
+            </VerticalStackLayout>
+
+            <!-- Menu Item 2 -->
+            <VerticalStackLayout Grid.Column="1" HorizontalOptions="Center">
+                <ImageButton Source="trophy.svg" WidthRequest="24" HeightRequest="24" BackgroundColor="Transparent" Clicked="OnChallangesClicked" />
+                <Label Text="Izivi" TextColor="LightGray" FontSize="12" HorizontalOptions="Center" />
+            </VerticalStackLayout>
+
+            <!-- Menu Item 3 -->
+            <VerticalStackLayout Grid.Column="2" HorizontalOptions="Center">
+                <ImageButton Source="sprint.svg" WidthRequest="24" HeightRequest="24" BackgroundColor="Transparent" Clicked="OnStartClicked" />
+                <Label Text="Zacni" TextColor="LightGray" FontSize="12" HorizontalOptions="Center" />
+            </VerticalStackLayout>
+
+            <!-- Menu Item 4 -->
+            <VerticalStackLayout Grid.Column="3" HorizontalOptions="Center">
+                <ImageButton Source="groups.svg" WidthRequest="24" HeightRequest="24" BackgroundColor="Transparent" Clicked="OnCommunityClicked" />
+                <Label Text="Skupnost" TextColor="LightGray" FontSize="12" HorizontalOptions="Center" />
+            </VerticalStackLayout>
+
+            <!-- Menu Item 5 -->
+            <VerticalStackLayout Grid.Column="4" HorizontalOptions="Center">
+                <ImageButton Source="person.svg" WidthRequest="24" HeightRequest="24" BackgroundColor="Transparent" Clicked="OnProfileClicked" />
+                <Label Text="Jaz" TextColor="LightGray" FontSize="12" HorizontalOptions="Center" />
+            </VerticalStackLayout>
+        </Grid>
+    </Grid>
+</ContentPage>

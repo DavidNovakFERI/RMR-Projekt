@@ -1,4 +1,9 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using Mapsui.UI.Maui;
+using Microsoft.Extensions.Logging;
+using Microsoft.Maui;
+using Microsoft.Maui.Hosting;
+using Microsoft.Maui.Maps.Handlers;
+using SkiaSharp.Views.Maui.Controls.Hosting;
 
 namespace App
 {
@@ -9,6 +14,11 @@ namespace App
             var builder = MauiApp.CreateBuilder();
             builder
                 .UseMauiApp<App>()
+                .UseSkiaSharp()
+                .ConfigureMauiHandlers(handlers =>
+                {
+                    handlers.AddHandler(typeof(MapView), typeof(MapHandler));
+                })
                 .ConfigureFonts(fonts =>
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
@@ -18,7 +28,7 @@ namespace App
                 });
 
 #if DEBUG
-    		builder.Logging.AddDebug();
+            builder.Logging.AddDebug();
 #endif
 
             return builder.Build();

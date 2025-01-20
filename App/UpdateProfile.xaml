@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App.UpdateProfile"
+             BackgroundColor="#222222"
+             Title="Update Profile">
+    <VerticalStackLayout Spacing="20" Padding="20" HorizontalOptions="FillAndExpand" VerticalOptions="Center">
+        <Label Text="Posodobi profil" TextColor="White" FontSize="24" HorizontalOptions="Center" />
+
+        <!-- Entry for Velikost -->
+        <Frame BackgroundColor="#333333" BorderColor="#555555" CornerRadius="10" Padding="10">
+            <VerticalStackLayout>
+                <Label Text="Velikost" TextColor="White" FontSize="18" />
+                <Entry x:Name="VelikostEntry" Placeholder="Vnesite velikost" TextColor="White" PlaceholderColor="Gray" />
+            </VerticalStackLayout>
+        </Frame>
+
+        <!-- Entry for Starost -->
+        <Frame BackgroundColor="#333333" BorderColor="#555555" CornerRadius="10" Padding="10">
+            <VerticalStackLayout>
+                <Label Text="Starost" TextColor="White" FontSize="18" />
+                <Entry x:Name="StarostEntry" Placeholder="Vnesite starost" TextColor="White" PlaceholderColor="Gray" />
+            </VerticalStackLayout>
+        </Frame>
+
+        <!-- Entry for Teža -->
+        <Frame BackgroundColor="#333333" BorderColor="#555555" CornerRadius="10" Padding="10">
+            <VerticalStackLayout>
+                <Label Text="Teža" TextColor="White" FontSize="18" />
+                <Entry x:Name="TezaEntry" Placeholder="Vnesite težo" TextColor="White" PlaceholderColor="Gray" />
+            </VerticalStackLayout>
+        </Frame>
+
+        <!-- Save Button -->
+        <Button Text="Shrani" TextColor="White" BackgroundColor="#333333" HorizontalOptions="Center" Clicked="OnSaveClicked" />
+    </VerticalStackLayout>
+</ContentPage>
+

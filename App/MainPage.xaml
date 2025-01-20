@@ -1,8 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="App.MainPage"
-             Title="Aktivno gibanje">
+             x:Class="App.MainPage">
 
     <AbsoluteLayout>
         <Image
@@ -13,57 +12,65 @@
             IsVisible="True"
             Scale="0.8" />
 
-        <Label
-            Text="Tvoj Zacetek Z Fittnes Uspehom"
-            TextColor="White"
-            FontFamily="WinterMinie"
-            FontSize="35"
-            FontAttributes="Bold"
-            HorizontalOptions="Center"
-            VerticalOptions="Center"
-            AbsoluteLayout.LayoutBounds="0.5,0.71,0.8,0.1"
+
+        <Frame
+            AbsoluteLayout.LayoutBounds="0.5,0.8,0.95,0.3"
             AbsoluteLayout.LayoutFlags="All"
-            HorizontalTextAlignment="Center"
-            VerticalTextAlignment="Center">
-            <Label.Shadow>
-                <Shadow Brush="Blue" Offset="-5,5" Opacity="1" />
-            </Label.Shadow>
-        </Label>
+            BackgroundColor="White"
+            CornerRadius="25"
+            HasShadow="True"
+            Padding="15">
+            <StackLayout Spacing="15" VerticalOptions="Center" HorizontalOptions="Center">
+                <!-- Register gumb -->
+                <Button
+                    x:Name="RegisterBtn"
+                    Text="REGISTRACIJA"
+                    FontFamily="varsity"
+                    SemanticProperties.Hint="Register a new account"
+                    Clicked="OnRegisterClicked"
+                    HorizontalOptions="Fill"
+                    CornerRadius="20"
+                    BackgroundColor="#34C759"
+                    TextColor="White"
+                    FontSize="20"
+                    Padding="20,10" />
+
+                <!-- Info tekst -->
+                <Label
+                    Text="Registriraj se in začni svojo pot do uspeha!"
+                    FontFamily="Arial"
+                    FontSize="16"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center"
+                    TextColor="Black"
+                    Margin="0,10,0,10" />
+
+                <!-- Tekst z opcijo za prijavo -->
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                    <Label
+                        Text="Imate že račun?"
+                        FontFamily="Arial"
+                        FontSize="16"
+                        VerticalTextAlignment="Center"
+                        TextColor="Gray" />
+                    <Label
+                        Text=" Prijava"
+                        FontFamily="Arial"
+                        FontSize="16"
+                        VerticalTextAlignment="Center"
+                        TextColor="#007AFF"
+                        FontAttributes="Bold">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer
+                                Tapped="OnLoginTapped"
+                                NumberOfTapsRequired="1" />
+                        </Label.GestureRecognizers>
+                    </Label>
+                </StackLayout>
+            </StackLayout>
+        </Frame>
 
 
-        <Grid AbsoluteLayout.LayoutBounds="0,1,1,0.2" AbsoluteLayout.LayoutFlags="All" Padding="20">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
-            </Grid.RowDefinitions>
-
-            <Button
-                x:Name="LoginBtn"
-                Text="LOGIN"
-                FontFamily="varsity"
-                SemanticProperties.Hint="Login to your account"
-                Clicked="OnLoginClicked"
-                HorizontalOptions="Fill"
-                Margin="0,0,0,10"
-                CornerRadius="20"
-                BackgroundColor="#007AFF"
-                TextColor="White"
-                Padding="10,5" />
-
-            <Button
-                x:Name="RegisterBtn"
-                Text="REGISTER"
-                FontFamily="varsity"
-                SemanticProperties.Hint="Register a new account"
-                Clicked="OnRegisterClicked"
-                HorizontalOptions="Fill"
-                Margin="0,10,0,0"
-                CornerRadius="20"
-                BackgroundColor="#34C759"
-                TextColor="White"
-                Padding="10,5"
-                Grid.Row="1" />
-        </Grid>
     </AbsoluteLayout>
 
 </ContentPage>

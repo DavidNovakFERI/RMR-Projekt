@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:microcharts="clr-namespace:Microcharts.Maui;assembly=Microcharts.Maui"
+             x:Class="App.ChallangesPage"
+             BackgroundColor="#222222"
+             Title="Challenges">
+
+    <Grid BackgroundColor="#222222">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!-- Scrollable Main Content -->
+        <ScrollView Grid.Row="0" BackgroundColor="#111111">
+            <VerticalStackLayout Spacing="10" Padding="10">
+                <!-- Description -->
+                <Label Text="Zadnjih 5 aktivnostih."
+                   TextColor="White" FontSize="18" HorizontalOptions="Center" />
+
+                <!-- Frame for Chart -->
+                <Frame BackgroundColor="#222222" BorderColor="#555555" CornerRadius="10" Padding="10">
+                    <microcharts:ChartView x:Name="chartView" HeightRequest="300" />
+                </Frame>
+
+                <!-- Progress Bar -->
+                <ProgressBar x:Name="progressBar" Progress="0" HeightRequest="30" BackgroundColor="#555555" ProgressColor="#00CED1" Margin="10,0" />
+
+                <!-- Days Remaining Label -->
+                <Label x:Name="daysRemainingLabel" Text="Preostali dnevi: 7" TextColor="White" FontSize="16" HorizontalOptions="Center" />
+
+                <!-- Set Goal Button -->
+                <Button Text="Cilj" BackgroundColor="#00CED1" TextColor="White" Clicked="OnSetGoalButtonClicked" Margin="10,0" />
+
+                <!-- Add more frames as needed -->
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <!-- Top Border -->
+        <BoxView Grid.Row="1" HeightRequest="1" BackgroundColor="#555555" />
+
+        <!-- Bottom Menu -->
+        <Grid Grid.Row="2" BackgroundColor="#222222" Padding="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <!-- Menu Item 1 -->
+            <VerticalStackLayout Grid.Column="0" HorizontalOptions="Center">
+                <ImageButton Source="home.svg" WidthRequest="24" HeightRequest="24" BackgroundColor="Transparent" Clicked="OnHomeClicked" />
+                <Label Text="Domov" TextColor="LightGray" FontSize="12" HorizontalOptions="Center" />
+            </VerticalStackLayout>
+
+            <!-- Menu Item 2 -->
+            <VerticalStackLayout Grid.Column="1" HorizontalOptions="Center">
+                <ImageButton Source="trophy.svg" WidthRequest="24" HeightRequest="24" BackgroundColor="Transparent" Clicked="OnChallangesClicked" />
+                <Label Text="Izivi" TextColor="LightGray" FontSize="12" HorizontalOptions="Center" />
+            </VerticalStackLayout>
+
+            <!-- Menu Item 3 -->
+            <VerticalStackLayout Grid.Column="2" HorizontalOptions="Center">
+                <ImageButton Source="sprint.svg" WidthRequest="24" HeightRequest="24" BackgroundColor="Transparent" Clicked="OnStartClicked" />
+                <Label Text="Zacni" TextColor="LightGray" FontSize="12" HorizontalOptions="Center" />
+            </VerticalStackLayout>
+
+            <!-- Menu Item 4 -->
+            <VerticalStackLayout Grid.Column="3" HorizontalOptions="Center">
+                <ImageButton Source="groups.svg" WidthRequest="24" HeightRequest="24" BackgroundColor="Transparent" Clicked="OnCommunityClicked" />
+                <Label Text="Skupnost" TextColor="LightGray" FontSize="12" HorizontalOptions="Center" />
+            </VerticalStackLayout>
+
+            <!-- Menu Item 5 -->
+            <VerticalStackLayout Grid.Column="4" HorizontalOptions="Center">
+                <ImageButton Source="person.svg" WidthRequest="24" HeightRequest="24" BackgroundColor="Transparent" Clicked="OnProfileClicked" />
+                <Label Text="Jaz" TextColor="LightGray" FontSize="12" HorizontalOptions="Center" />
+            </VerticalStackLayout>
+        </Grid>
+    </Grid>
+</ContentPage>

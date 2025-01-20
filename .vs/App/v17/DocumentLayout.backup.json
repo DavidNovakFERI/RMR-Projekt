@@ -3,16 +3,36 @@
   "WorkspaceRootPath": "D:\\3LETNIK\\RMR\\App\\App\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E1F3342A-4BB4-4126-A801-2FE40ADE6AA7}|App\\App.csproj|d:\\3letnik\\rmr\\app\\app\\app\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E1F3342A-4BB4-4126-A801-2FE40ADE6AA7}|App\\App.csproj|solutionrelative:app\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{E1F3342A-4BB4-4126-A801-2FE40ADE6AA7}|App\\App.csproj|d:\\3letnik\\rmr\\app\\app\\app\\challangespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1F3342A-4BB4-4126-A801-2FE40ADE6AA7}|App\\App.csproj|solutionrelative:app\\challangespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1F3342A-4BB4-4126-A801-2FE40ADE6AA7}|App\\App.csproj|d:\\3letnik\\rmr\\app\\app\\app\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1F3342A-4BB4-4126-A801-2FE40ADE6AA7}|App\\App.csproj|solutionrelative:app\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1F3342A-4BB4-4126-A801-2FE40ADE6AA7}|App\\App.csproj|d:\\3letnik\\rmr\\app\\app\\app\\startpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1F3342A-4BB4-4126-A801-2FE40ADE6AA7}|App\\App.csproj|solutionrelative:app\\startpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1F3342A-4BB4-4126-A801-2FE40ADE6AA7}|App\\App.csproj|d:\\3letnik\\rmr\\app\\app\\app\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1F3342A-4BB4-4126-A801-2FE40ADE6AA7}|App\\App.csproj|solutionrelative:app\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1F3342A-4BB4-4126-A801-2FE40ADE6AA7}|App\\App.csproj|d:\\3letnik\\rmr\\app\\app\\app\\communitypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1F3342A-4BB4-4126-A801-2FE40ADE6AA7}|App\\App.csproj|solutionrelative:app\\communitypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1F3342A-4BB4-4126-A801-2FE40ADE6AA7}|App\\App.csproj|d:\\3letnik\\rmr\\app\\app\\app\\profile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1F3342A-4BB4-4126-A801-2FE40ADE6AA7}|App\\App.csproj|solutionrelative:app\\profile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1F3342A-4BB4-4126-A801-2FE40ADE6AA7}|App\\App.csproj|d:\\3letnik\\rmr\\app\\app\\app\\startpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E1F3342A-4BB4-4126-A801-2FE40ADE6AA7}|App\\App.csproj|solutionrelative:app\\startpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1F3342A-4BB4-4126-A801-2FE40ADE6AA7}|App\\App.csproj|d:\\3letnik\\rmr\\app\\app\\app\\challangespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E1F3342A-4BB4-4126-A801-2FE40ADE6AA7}|App\\App.csproj|solutionrelative:app\\challangespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1F3342A-4BB4-4126-A801-2FE40ADE6AA7}|App\\App.csproj|d:\\3letnik\\rmr\\app\\app\\app\\naslovnastran.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1F3342A-4BB4-4126-A801-2FE40ADE6AA7}|App\\App.csproj|solutionrelative:app\\naslovnastran.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1F3342A-4BB4-4126-A801-2FE40ADE6AA7}|App\\App.csproj|d:\\3letnik\\rmr\\app\\app\\app\\naslovnastran.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E1F3342A-4BB4-4126-A801-2FE40ADE6AA7}|App\\App.csproj|solutionrelative:app\\naslovnastran.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E1F3342A-4BB4-4126-A801-2FE40ADE6AA7}|App\\App.csproj|d:\\3letnik\\rmr\\app\\app\\app\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,59 +46,116 @@
       "DocumentGroups": [
         {
           "DockedWidth": 325,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "D:\\3LETNIK\\RMR\\App\\App\\App\\App.xaml.cs",
-              "RelativeDocumentMoniker": "App\\App.xaml.cs",
-              "ToolTip": "D:\\3LETNIK\\RMR\\App\\App\\App\\App.xaml.cs",
-              "RelativeToolTip": "App\\App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "CommunityPage.xaml.cs",
+              "DocumentMoniker": "D:\\3LETNIK\\RMR\\App\\App\\App\\CommunityPage.xaml.cs",
+              "RelativeDocumentMoniker": "App\\CommunityPage.xaml.cs",
+              "ToolTip": "D:\\3LETNIK\\RMR\\App\\App\\App\\CommunityPage.xaml.cs",
+              "RelativeToolTip": "App\\CommunityPage.xaml.cs",
+              "ViewState": "AgIAAMsAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T23:44:00.632Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-19T22:16:11.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StartPage.xaml.cs",
+              "DocumentMoniker": "D:\\3LETNIK\\RMR\\App\\App\\App\\StartPage.xaml.cs",
+              "RelativeDocumentMoniker": "App\\StartPage.xaml.cs",
+              "ToolTip": "D:\\3LETNIK\\RMR\\App\\App\\App\\StartPage.xaml.cs",
+              "RelativeToolTip": "App\\StartPage.xaml.cs",
+              "ViewState": "AgIAAO4AAAAAAAAAAAAvwI8AAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T19:13:27.786Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "D:\\3LETNIK\\RMR\\App\\App\\App\\MainPage.xaml",
-              "RelativeDocumentMoniker": "App\\MainPage.xaml",
-              "ToolTip": "D:\\3LETNIK\\RMR\\App\\App\\App\\MainPage.xaml",
-              "RelativeToolTip": "App\\MainPage.xaml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAADcAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-10T23:40:20.128Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "D:\\3LETNIK\\RMR\\App\\App\\App\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "App\\MainPage.xaml.cs",
-              "ToolTip": "D:\\3LETNIK\\RMR\\App\\App\\App\\MainPage.xaml.cs",
-              "RelativeToolTip": "App\\MainPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Title": "ChallangesPage.xaml.cs",
+              "DocumentMoniker": "D:\\3LETNIK\\RMR\\App\\App\\App\\ChallangesPage.xaml.cs",
+              "RelativeDocumentMoniker": "App\\ChallangesPage.xaml.cs",
+              "ToolTip": "D:\\3LETNIK\\RMR\\App\\App\\App\\ChallangesPage.xaml.cs",
+              "RelativeToolTip": "App\\ChallangesPage.xaml.cs",
+              "ViewState": "AgIAALcAAAAAAAAAAAAiwM4AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T23:41:16.715Z",
+              "WhenOpened": "2025-01-19T20:25:23.93Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Profile.xaml.cs",
+              "DocumentMoniker": "D:\\3LETNIK\\RMR\\App\\App\\App\\Profile.xaml.cs",
+              "RelativeDocumentMoniker": "App\\Profile.xaml.cs",
+              "ToolTip": "D:\\3LETNIK\\RMR\\App\\App\\App\\Profile.xaml.cs",
+              "RelativeToolTip": "App\\Profile.xaml.cs",
+              "ViewState": "AgIAALMAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T22:16:02.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NaslovnaStran.xaml",
+              "DocumentMoniker": "D:\\3LETNIK\\RMR\\App\\App\\App\\NaslovnaStran.xaml",
+              "RelativeDocumentMoniker": "App\\NaslovnaStran.xaml",
+              "ToolTip": "D:\\3LETNIK\\RMR\\App\\App\\App\\NaslovnaStran.xaml",
+              "RelativeToolTip": "App\\NaslovnaStran.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-19T19:46:18.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StartPage.xaml",
+              "DocumentMoniker": "D:\\3LETNIK\\RMR\\App\\App\\App\\StartPage.xaml",
+              "RelativeDocumentMoniker": "App\\StartPage.xaml",
+              "ToolTip": "D:\\3LETNIK\\RMR\\App\\App\\App\\StartPage.xaml",
+              "RelativeToolTip": "App\\StartPage.xaml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAcwFsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-19T19:13:30.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NaslovnaStran.xaml.cs",
+              "DocumentMoniker": "D:\\3LETNIK\\RMR\\App\\App\\App\\NaslovnaStran.xaml.cs",
+              "RelativeDocumentMoniker": "App\\NaslovnaStran.xaml.cs",
+              "ToolTip": "D:\\3LETNIK\\RMR\\App\\App\\App\\NaslovnaStran.xaml.cs",
+              "RelativeToolTip": "App\\NaslovnaStran.xaml.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAiwK8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T19:46:19.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ChallangesPage.xaml",
+              "DocumentMoniker": "D:\\3LETNIK\\RMR\\App\\App\\App\\ChallangesPage.xaml",
+              "RelativeDocumentMoniker": "App\\ChallangesPage.xaml",
+              "ToolTip": "D:\\3LETNIK\\RMR\\App\\App\\App\\ChallangesPage.xaml",
+              "RelativeToolTip": "App\\ChallangesPage.xaml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAiwFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-19T20:25:23.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "MauiProgram.cs",
               "DocumentMoniker": "D:\\3LETNIK\\RMR\\App\\App\\App\\MauiProgram.cs",
               "RelativeDocumentMoniker": "App\\MauiProgram.cs",
               "ToolTip": "D:\\3LETNIK\\RMR\\App\\App\\App\\MauiProgram.cs",
               "RelativeToolTip": "App\\MauiProgram.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T23:32:45.588Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-18T15:47:40.01Z"
             }
           ]
         },

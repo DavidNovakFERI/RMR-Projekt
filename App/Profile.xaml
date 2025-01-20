@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App.Profile"
+             BackgroundColor="#222222"
+             Title="Profile">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem IconImageSource="logout.svg" Order="Primary" Priority="0" Clicked="OnToolbarItemClicked" />
+    </ContentPage.ToolbarItems>
+    <Grid BackgroundColor="#111111">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!-- Frame for Profile Content -->
+        <Frame Grid.Row="0" BackgroundColor="#222222" BorderColor="#555555" CornerRadius="20" Padding="20" Margin="10">
+            <VerticalStackLayout Spacing="10" Padding="10" HorizontalOptions="FillAndExpand" VerticalOptions="Center">
+                <!-- Title -->
+                <Label Text="Profile" TextColor="White" FontSize="24" HorizontalOptions="Center" />
+
+                <!-- Circular Image -->
+                <Frame WidthRequest="100" HeightRequest="100" CornerRadius="50" IsClippedToBounds="True" BorderColor="White" HorizontalOptions="Center">
+                    <Image Source="profile_picture.png" Aspect="AspectFill" />
+                </Frame>
+
+                <!-- Name and Surname -->
+                <Label x:Name="NameLabel" Text="        " TextColor="White" FontSize="18" HorizontalOptions="Center" />
+
+                <!-- Additional content can go here -->
+            </VerticalStackLayout>
+        </Frame>
+
+        <!-- Scrollable Main Content -->
+        <ScrollView Grid.Row="1" BackgroundColor="#111111" HorizontalOptions="FillAndExpand">
+            <VerticalStackLayout Spacing="10" Padding="10" HorizontalOptions="FillAndExpand" VerticalOptions="Start">
+                <HorizontalStackLayout Spacing="10" Padding="10" HorizontalOptions="Center">
+                    <VerticalStackLayout Spacing="5" HorizontalOptions="Center">
+                        <Label Text="Velikost" TextColor="White" HorizontalOptions="Center" />
+                        <!-- Frame for Velikost -->
+                        <Frame BackgroundColor="#222222" BorderColor="#555555" CornerRadius="10" Padding="10" WidthRequest="100">
+                            <Label x:Name="VelikostLabel" Text="        " TextColor="White" HorizontalOptions="Center" />
+                        </Frame>
+                    </VerticalStackLayout>
+
+                    <VerticalStackLayout Spacing="5" HorizontalOptions="Center">
+                        <Label Text="Starost" TextColor="White" HorizontalOptions="Center" />
+                        <!-- Frame for Starost -->
+                        <Frame BackgroundColor="#222222" BorderColor="#555555" CornerRadius="10" Padding="10" WidthRequest="100">
+                            <Label x:Name="StarostLabel" Text="        " TextColor="White" HorizontalOptions="Center" />
+                        </Frame>
+                    </VerticalStackLayout>
+
+                    <VerticalStackLayout Spacing="5" HorizontalOptions="Center">
+                        <Label Text="Teža" TextColor="White" HorizontalOptions="Center" />
+                        <!-- Frame for Teža -->
+                        <Frame BackgroundColor="#222222" BorderColor="#555555" CornerRadius="10" Padding="10" WidthRequest="100">
+                            <Label x:Name="TezaLabel" Text="        " TextColor="White" HorizontalOptions="Center" />
+                        </Frame>
+                    </VerticalStackLayout>
+                </HorizontalStackLayout>
+
+                <!-- Activities will be added here dynamically -->
+                <VerticalStackLayout x:Name="activitiesLayout" Spacing="10" Padding="10" HorizontalOptions="FillAndExpand" VerticalOptions="Start">
+                </VerticalStackLayout>
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <!-- Update Button -->
+        <Button Grid.Row="2" Text="Posodobi profil" BackgroundColor="Green" TextColor="White" Clicked="OnUpdateButtonClicked" />
+
+        <!-- Top Border -->
+        <BoxView Grid.Row="3" HeightRequest="1" BackgroundColor="#555555" />
+
+        <!-- Bottom Menu -->
+        <Grid Grid.Row="4" BackgroundColor="#222222" Padding="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <!-- Menu Item 1 -->
+            <VerticalStackLayout Grid.Column="0" HorizontalOptions="Center">
+                <ImageButton Source="home.svg" WidthRequest="24" HeightRequest="24" BackgroundColor="Transparent" Clicked="OnHomeClicked" />
+                <Label Text="Domov" TextColor="LightGray" FontSize="12" HorizontalOptions="Center" />
+            </VerticalStackLayout>
+
+            <!-- Menu Item 2 -->
+            <VerticalStackLayout Grid.Column="1" HorizontalOptions="Center">
+                <ImageButton Source="trophy.svg" WidthRequest="24" HeightRequest="24" BackgroundColor="Transparent" Clicked="OnChallangesClicked" />
+                <Label Text="Izivi" TextColor="LightGray" FontSize="12" HorizontalOptions="Center" />
+            </VerticalStackLayout>
+
+            <!-- Menu Item 3 -->
+            <VerticalStackLayout Grid.Column="2" HorizontalOptions="Center">
+                <ImageButton Source="sprint.svg" WidthRequest="24" HeightRequest="24" BackgroundColor="Transparent" Clicked="OnStartClicked" />
+                <Label Text="Zacni" TextColor="LightGray" FontSize="12" HorizontalOptions="Center" />
+            </VerticalStackLayout>
+
+            <!-- Menu Item 4 -->
+            <VerticalStackLayout Grid.Column="3" HorizontalOptions="Center">
+                <ImageButton Source="groups.svg" WidthRequest="24" HeightRequest="24" BackgroundColor="Transparent" Clicked="OnCommunityClicked" />
+                <Label Text="Skupnost" TextColor="LightGray" FontSize="12" HorizontalOptions="Center" />
+            </VerticalStackLayout>
+
+            <!-- Menu Item 5 -->
+            <VerticalStackLayout Grid.Column="4" HorizontalOptions="Center">
+                <ImageButton Source="person.svg" WidthRequest="24" HeightRequest="24" BackgroundColor="Transparent" Clicked="OnProfileClicked" />
+                <Label Text="Jaz" TextColor="LightGray" FontSize="12" HorizontalOptions="Center" />
+            </VerticalStackLayout>
+        </Grid>
+    </Grid>
+</ContentPage>

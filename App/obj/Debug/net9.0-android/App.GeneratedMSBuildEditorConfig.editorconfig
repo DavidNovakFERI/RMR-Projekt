@@ -30,11 +30,47 @@ build_metadata.AdditionalFiles.ManifestResourceName = App.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
+[D:/3LETNIK/RMR/App/App/App/ChallangesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = App.ChallangesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = ChallangesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = ChallangesPage.xaml
+
+[D:/3LETNIK/RMR/App/App/App/CommunityPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = App.CommunityPage.xaml
+build_metadata.AdditionalFiles.TargetPath = CommunityPage.xaml
+build_metadata.AdditionalFiles.RelativePath = CommunityPage.xaml
+
+[D:/3LETNIK/RMR/App/App/App/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = App.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = LoginPage.xaml
+
 [D:/3LETNIK/RMR/App/App/App/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = App.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[D:/3LETNIK/RMR/App/App/App/NaslovnaStran.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = App.NaslovnaStran.xaml
+build_metadata.AdditionalFiles.TargetPath = NaslovnaStran.xaml
+build_metadata.AdditionalFiles.RelativePath = NaslovnaStran.xaml
+
+[D:/3LETNIK/RMR/App/App/App/Profile.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = App.Profile.xaml
+build_metadata.AdditionalFiles.TargetPath = Profile.xaml
+build_metadata.AdditionalFiles.RelativePath = Profile.xaml
+
+[D:/3LETNIK/RMR/App/App/App/RegisterPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = App.RegisterPage.xaml
+build_metadata.AdditionalFiles.TargetPath = RegisterPage.xaml
+build_metadata.AdditionalFiles.RelativePath = RegisterPage.xaml
 
 [D:/3LETNIK/RMR/App/App/App/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
@@ -47,3 +83,15 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = App.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[D:/3LETNIK/RMR/App/App/App/StartPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = App.StartPage.xaml
+build_metadata.AdditionalFiles.TargetPath = StartPage.xaml
+build_metadata.AdditionalFiles.RelativePath = StartPage.xaml
+
+[D:/3LETNIK/RMR/App/App/App/UpdateProfile.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = App.UpdateProfile.xaml
+build_metadata.AdditionalFiles.TargetPath = UpdateProfile.xaml
+build_metadata.AdditionalFiles.RelativePath = UpdateProfile.xaml
